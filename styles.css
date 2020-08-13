@@ -4,3 +4,8 @@ body {
 p {
   color: red;
 }
+.profile-pic {
+  border-radius: 40%;
+  background-color: aqua;
+  size: 50px;
+}
