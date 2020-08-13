@@ -1,3 +1,6 @@
 body {
   background-image: url("/images/pexels-pok-rie-204946.jpg");
 }
+p {
+  color: red;
+}
