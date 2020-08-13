@@ -1,11 +1,65 @@
 body {
   background-image: url("/images/pexels-pok-rie-204946.jpg");
+  background-color: blue;
 }
+
 p {
-  color: red;
+  font-size: 30pt;
+  color: white;
+  font-family: "Rouge Script", cursive;
+  font-weight: bolder;
 }
-.profile-pic {
-  border-radius: 40%;
-  background-color: aqua;
+
+/* not working*/
+.nav-bar ul {
+  color: white;
+  font-size: 17pt;
+  font-weight: bolder;
+  font-family: cursive;
+}
+
+profile-pic {
   size: 50px;
+  border-radius: 50%;
+}
+
+.quatation-font {
+  color: white;
+  font-weight: bolder;
+  font-family: "Rouge Script", cursive;
+}
+/* not working*/
+.carousel .slide {
+  justify-content: center;
+}
+
+.carousel {
+  max-width: height 300px;
+  max-width: 600px;
+}
+
+.carousel-inner {
+  margin: auto;
+}
+
+.carousel-item img {
+  width: auto;
+  height: 245px;
+  max-height: 245px;
+  margin: auto;
+  display: block;
+}
+
+.welcome-note {
+  color: white;
+  font-family: "Rouge Script", cursive;
+  font-weight: bolder;
+}
+
+.project-image {
+  width: auto;
+  height: 245px;
+  max-height: 245px;
+  margin: auto;
+  display: block;
 }
