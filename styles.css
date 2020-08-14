@@ -7,7 +7,10 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+.nav {
+  position: fixed;
+  margin-top: 50px;
+}
 .welcome {
   color: white;
   font-weight: bolder;
