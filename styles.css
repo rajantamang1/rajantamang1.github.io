@@ -1,7 +1,11 @@
 body {
   background-image: url("/images/pexels-pok-rie-204946.jpg");
+  height: 400px;
   background-color: blue;
-  background-attachment: scroll;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .nav-link {
@@ -14,7 +18,7 @@ body {
 .profile-pic {
   background-color: darkcyan;
   border-radius: 50%;
-  size: 50px;
+  size: 30px;
 }
 
 .quatation-font {
@@ -25,7 +29,7 @@ body {
 }
 
 .carousel {
-  max-width: height 300px;
+  max-width: height 400px;
   max-width: 600px;
 }
 
@@ -56,12 +60,13 @@ body {
   max-height: 245px;
   margin: auto;
   display: block;
+  border-radius: 50%;
 }
 
 /*for About page*/
 .name {
   color: white;
-  font-family: Arial;
+  font-family: Georgia;
   font-weight: bolder;
 }
 /*social media icons*/
@@ -89,9 +94,35 @@ body {
   background-color: antiquewhite;
 }
 
+.quatation-about {
+  color: white;
+  font-family: "Rouge Script", cursive;
+  font-weight: bold;
+}
+
 .summary {
   color: white;
   font-family: "Rouge Script", cursive;
   font-size: 16pt;
   font-weight: bold;
+}
+
+.resume {
+  padding: 20px;
+  width: 710px;
+  position: relative;
+  background: transparent;
+  justify-content: center;
+}
+
+.resume-type {
+  justify-items: center;
+}
+
+.button {
+  color: white;
+}
+
+.btn {
+  color: rgb(77, 168, 204);
 }
