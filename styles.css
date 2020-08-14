@@ -10,8 +10,7 @@ p {
   font-weight: bolder;
 }
 
-/* not working*/
-.nav-bar ul {
+.nav-link {
   color: white;
   font-size: 17pt;
   font-weight: bolder;
@@ -57,9 +56,20 @@ profile-pic {
 }
 
 .project-image {
+  object-position: left;
   width: auto;
   height: 245px;
   max-height: 245px;
   margin: auto;
   display: block;
+}
+
+#image1 {
+  object-position: left;
+}
+#image2 {
+  object-position: left;
+}
+#image3 {
+  object-position: left;
 }
