@@ -8,6 +8,12 @@ body {
   background-size: cover;
 }
 
+.welcome {
+  color: white;
+  font-weight: bolder;
+  font-family: "Rouge Script", cursive;
+  font-size: 30pt;
+}
 .nav-link {
   color: white;
   font-size: 17pt;
