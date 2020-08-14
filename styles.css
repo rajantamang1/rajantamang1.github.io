@@ -1,13 +1,7 @@
 body {
   background-image: url("/images/pexels-pok-rie-204946.jpg");
   background-color: blue;
-}
-
-p {
-  font-size: 30pt;
-  color: white;
-  font-family: "Rouge Script", cursive;
-  font-weight: bolder;
+  background-attachment: scroll;
 }
 
 .nav-link {
@@ -17,19 +11,17 @@ p {
   font-family: cursive;
 }
 
-profile-pic {
-  size: 50px;
+.profile-pic {
+  background-color: darkcyan;
   border-radius: 50%;
+  size: 50px;
 }
 
 .quatation-font {
   color: white;
   font-weight: bolder;
   font-family: "Rouge Script", cursive;
-}
-/* not working*/
-.carousel .slide {
-  justify-content: center;
+  font-size: 30pt;
 }
 
 .carousel {
@@ -37,10 +29,10 @@ profile-pic {
   max-width: 600px;
 }
 
-.carousel-inner {
-  margin: auto;
+.col-centered {
+  float: none;
+  margin: 0 auto;
 }
-
 .carousel-item img {
   width: auto;
   height: 245px;
@@ -50,9 +42,11 @@ profile-pic {
 }
 
 .welcome-note {
-  color: white;
+  color: rgb(236, 225, 225);
   font-family: "Rouge Script", cursive;
   font-weight: bolder;
+  font-size: 30pt;
+  padding: 15px;
 }
 
 .project-image {
@@ -64,12 +58,40 @@ profile-pic {
   display: block;
 }
 
-#image1 {
-  object-position: left;
+/*for About page*/
+.name {
+  color: white;
+  font-family: Arial;
+  font-weight: bolder;
 }
-#image2 {
-  object-position: left;
+/*social media icons*/
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
 }
-#image3 {
-  object-position: left;
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+/*for LinkedIn*/
+.fa-linkedin {
+  background: #3b5998;
+  color: white;
+}
+
+/*for GitHub*/
+.fa-github {
+  background-color: antiquewhite;
+}
+
+.summary {
+  color: white;
+  font-family: "Rouge Script", cursive;
+  font-size: 16pt;
+  font-weight: bold;
 }
